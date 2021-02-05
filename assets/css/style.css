@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Roboto", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -521,7 +522,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 60px 0 1px 0;
 }
 
 .section-bg {
@@ -1126,7 +1127,7 @@ section {
 }
 
 .service-details .card:hover img {
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 
 .service-details .card:hover .card-body {
