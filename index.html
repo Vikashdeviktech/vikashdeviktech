@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-        <img src="Images/logo.jpg" alt="logo" height="60px" width="60px">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark custom-navbar">
+        <img src="Images/logo.jpg" alt="logo" height="40px" width="40px">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
 
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto ul">
 
                 <li class="nav-item">
                     <a class="nav-link" href="about.html" id="services">About Us</a>
@@ -42,9 +42,8 @@
             </ul>
 
             <div class="button" style="margin-top: 15px;">
-                <button type="button" class="btn " data-toggle="modal" data-target="#exampleModalCenter1" style="background-color: white;">
-                    Schedule Meeting
-                </button>
+                <button class="btn btn-outline-success custom-btn" style="margin-right: 15px" type="submit"
+                data-toggle="modal" data-target="#exampleModalCenter1">Schedule Meeting</button>
             </div>
         </div>
     </nav>
@@ -152,7 +151,7 @@
                         </div>
 
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-success btn-block mt-3">Submit</button>
                     </form>
                 </div>
 
@@ -262,7 +261,7 @@
                 <div class="blog col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" >
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="#"><img src="Images/decoration.png" alt=""></a></figure>
+                            <figure class="image custom-pic"><a href="#"><img src="Images/decoration.png" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
                             <div class="info-box">
@@ -317,7 +316,7 @@
                 <div class="blog col-lg-4 col-md-6 col-sm-12 wow fadeInUp animated" >
                     <div class="inner-box">
                         <div class="image-box">
-                            <figure class="image"><a href="services.html"><img src="Images/marriage.jpg" alt=""></a></figure>
+                            <figure class="image"><a href="marriage.html"><img src="Images/marriage.jpg" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
                             <div class="info-box">
@@ -326,7 +325,7 @@
                             </div>
                             <h4><a href="#">Some Content Here</a></h4>
                             <div class="text">Some Content Here </div>
-                            <div class="link-box"><a href="services.html"><span class="fa fa-angle-right"></span>Read More</a></div>
+                            <div class="link-box"><a href="marriage.html"><span class="fa fa-angle-right"></span>Read More</a></div>
                         </div>
                     </div>
                 </div>
@@ -374,7 +373,7 @@
  <!-- Footer start from here -->
 
 
-    <footer style="background-color: #2c292f">
+    <!-- <footer style="background-color: #2c292f">
         <div class="container">
             <div class="row ">
                 <div class="col-md-4 text-center text-md-left ">
@@ -426,7 +425,90 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
+
+    <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+
+        <div class="footer-newsletter">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h2>Soft Planner</h2>
+                <p>we make your Shaadi special.</p>
+              </div>
+               <div class="col-lg-6">
+                <h5 class="links">Our Social Media Handles:-</h5>
+                <div class="links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6 footer-links footer">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Decoration</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Catering</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">DJ</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Marriage Hall</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Tent</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Video Cam</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h4>Contact Us</h4>
+                <p class="text-white"> <i class="fa fa-map-marker mx-2 "></i>
+                    Address-shop no-D/84,dvc central market,bokaro thermal,bokaro jharkhand-829107</p>
+                    <div>
+                        <p><!-- <i class="fa fa-phone  mx-2 "></i> --><strong>phone:-</strong> +91 7378757086</p>
+                    </div>
+                    <div>
+                        <p><i class="fa fa-envelope  mx-2"></i><a
+                                href="infot@weplanwedding.com">support@softplanner.in</a></p>
+                    </div>
+                </div>
+              <div class="col-lg-3 col-md-6 footer-info">
+                <h3>Payment Method</h3>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-credit-card"></i></a>
+                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="copyright">
+            <p>©2020 Soft Planner</p>          
+          </div>
+        </div>
+      </footer><!-- End Footer -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
            <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
            <script>
